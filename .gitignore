@@ -1,0 +1,46 @@
+# Capstone Project .gitignore
+# Only ignore sensitive files, keep all data
+
+# API Keys & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Python Cache (standard)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# IDEs (optional - personal preference files)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Temporary Files
+*.log
+*.tmp
+*.temp
+*~
+
+# .pkl and csv files are mostly too large
+AIDifficultyClassifier/*.pkl
+SimilarityScorePredictor/*.pkl
+Datasets/*.csv
+Datasets/*.xlsx
+Datasets/*.json
+
+*.pkl
+*.csv
+*.xlsx
+*.json
