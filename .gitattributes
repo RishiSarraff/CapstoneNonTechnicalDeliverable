@@ -1,0 +1,5 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+AIDifficultyClassifier/*.pkl filter=lfs diff=lfs merge=lfs -text
+SimilarityScorePredictor/*.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+Datasets/*.csv filter=lfs diff=lfs merge=lfs -text

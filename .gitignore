@@ -33,14 +33,16 @@ env/
 *.temp
 *~
 
-# .pkl and csv files are mostly too large
-AIDifficultyClassifier/*.pkl
-SimilarityScorePredictor/*.pkl
-Datasets/*.csv
-Datasets/*.xlsx
-Datasets/*.json
 
-*.pkl
-*.csv
-*.xlsx
-*.json
+## Using Git LFS to keep large files
+# # .pkl and csv files are mostly too large
+# AIDifficultyClassifier/*.pkl
+# SimilarityScorePredictor/*.pkl
+# Datasets/*.csv
+# Datasets/*.xlsx
+# Datasets/*.json
+
+# *.pkl
+# *.csv
+# *.xlsx
+# *.json
