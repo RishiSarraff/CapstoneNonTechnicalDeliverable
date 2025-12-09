@@ -1,8 +1,13 @@
+## Run Streamlit locally:
+
 1. Install Python 3.13.3
 2. Host a Venv --> source venv/bin/active (MAC) or venv\Scripts\activate (Windows)
 2. Run: pip install -r requirements.txt
 3. Run: streamlit run app.py
 4. Browser opens automatically to localhost:8501
+
+## Open StreamLit using Deployed app Link:
+Link: 
 
 ## Required Data Files
 
