@@ -1,16 +1,20 @@
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
 from openai import OpenAI
+import dotenv
+
+load_dotenv()
 
 df = pd.read_csv('jobDescriptionsDataset.csv')
 df.head()
 
-openai_api_key = os.getenv("OPEN_API_KEY")
+deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
 
-client = OpenAI(api_key=openai_api_key)
+client = OpenAI(api_key=deepseek_api_key)
 
 def get_embedding(text, model="text-embedding-3-large"):
     if pd.isna(text) or not isinstance(text, str):
